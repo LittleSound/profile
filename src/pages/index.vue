@@ -9,15 +9,11 @@ const { isMobile } = useBentoLayout()
 </script>
 
 <template>
-  <div
-
-    bg-gray-100 min-h-screen dark:bg-gray-900
-  >
+  <div pb-20 bg-gray-100 min-h-screen dark:bg-gray-900>
     <!-- Page container with max-width and centered -->
     <div
       :class="isMobile ? 'flex-col' : 'flex-row'"
       class="page-container"
-
       mx-auto flex
     >
       <!-- Profile Section: flex-1 on desktop, left + top aligned -->
@@ -39,6 +35,8 @@ const { isMobile } = useBentoLayout()
       >
         <BentoGrid :items="bentoData.items" :is-mobile="isMobile" />
       </main>
+
+      <TheFooter class="mt-10 text-center block xl:hidden" />
     </div>
 
     <!-- Floating Bar -->

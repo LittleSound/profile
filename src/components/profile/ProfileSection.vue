@@ -13,7 +13,7 @@ const bioLines = computed(() => {
 </script>
 
 <template>
-  <div flex="~ col items-start" gap-6>
+  <div flex="~ col items-start" gap-6 h-full>
     <AvatarFrame
       :src="profile.image"
       :alt="profile.name"
@@ -33,5 +33,8 @@ const bioLines = computed(() => {
         {{ line }}
       </p>
     </div>
+
+    <div class="flex-1 hidden xl:block" />
+    <TheFooter class="hidden xl:block" />
   </div>
 </template>
