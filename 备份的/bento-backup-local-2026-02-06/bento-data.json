@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "source": "https://bento.me/rizumu",
+    "backup_date": "2026-02-06",
+    "shutdown_date": "2026-02-13",
+    "note": "Data reconstructed from search engine indexes. Fields marked with null or '?' need manual verification."
+  },
+  "profile": {
+    "username": "LittleSound｜Rizumu",
+    "avatar": {
+      "github_url": "https://avatars.githubusercontent.com/u/19204772?v=4",
+      "bento_url": null,
+      "note": "Bento avatar may differ from GitHub avatar. Please save manually."
+    },
+    "bio_markdown": "🔥 A happy pessimist and love open source!\n💚 Working on Vue Vapor Mode\n🛠 3D Print → Made a lot of Dev goods\n🎮 love Nintendo & Souls-like games\n\n🏳️‍⚧️ she/her ｜ 🧠 ADHDer\n\nMember of @vuejs and @elk-zone @nolebase @project-trans\n\n📧 Mail → rizumu@ayaka.moe",
+    "bio_note": "Exact markdown formatting (links, bold, etc.) needs verification against original page."
+  },
+  "sections": [
+    {
+      "title": null,
+      "title_note": "Unknown if social cards have a section title. Verify.",
+      "cards": [
+        {
+          "id": 1,
+          "type": "link",
+          "special_type": "twitter",
+          "size": null,
+          "title": "Twitter (zh-cn)",
+          "label": "@OikawaRizumu",
+          "description": "小音 LittleSound｜💚 Member of Vue, participating in developing Vapor mode｜🪀 plays with 3D printing and made lots of programmer merchandise｜🔥 loves open source｜🧠 ADHDer｜🏳️‍⚧️ she/her｜🎮 likes playing Soulslike and Nintendo games",
+          "url": "https://x.com/OikawaRizumu",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 2,
+          "type": "link",
+          "special_type": "github",
+          "size": null,
+          "title": "GitHub",
+          "label": "LittleSound",
+          "description": "GitHub contribution heatmap (green squares)",
+          "url": "https://github.com/LittleSound",
+          "image": null,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "title": "Products｜Works",
+      "title_confirmed": true,
+      "cards": [
+        {
+          "id": 3,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Vue: Vapor Mode",
+          "label": null,
+          "description": "High performance, no Virtual DOM",
+          "url": "https://github.com/vuejs/core-vapor",
+          "url_note": "URL inferred. Please verify.",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 4,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Elk",
+          "label": null,
+          "description": "A nifty Mastodon client",
+          "url": "https://elk.zone",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 5,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Nólëbase Integrations",
+          "label": null,
+          "description": "Upgrade your VitePress!",
+          "url": "https://nolebase-integrations.ayaka.io",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 6,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Interline Translate 行间翻译",
+          "label": null,
+          "description": "A VSCode Extension",
+          "url": "https://marketplace.visualstudio.com/items?itemName=RizumuAyaka.interline-translate",
+          "url_note": "Extension ID inferred. Please verify.",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 7,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Guii.AI",
+          "label": null,
+          "description": "Guii AI as your pair programming partner. Use multimodal prompts to generate the frontend",
+          "url": "https://guii.ai",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 8,
+          "type": "link",
+          "special_type": null,
+          "size": null,
+          "title": "Qrs",
+          "label": null,
+          "description": "Stream data through multiple QRCodes",
+          "url": "https://qrss.netlify.app",
+          "image": null,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "title": null,
+      "title_note": "Unknown section title. Verify.",
+      "cards": [
+        {
+          "id": 9,
+          "type": "link",
+          "special_type": "mastodon",
+          "size": null,
+          "title": "Mastodon",
+          "label": "@rizumu@mas.to",
+          "description": null,
+          "url": "https://mas.to/@rizumu",
+          "image": null,
+          "cover": null
+        },
+        {
+          "id": 10,
+          "type": "map",
+          "size": null,
+          "title": "Location",
+          "label": "Shanghai",
+          "location_name": "Shanghai",
+          "coordinates": null,
+          "coordinates_note": "Exact coordinates unknown. Verify."
+        }
+      ]
+    }
+  ],
+  "uncaptured": {
+    "note": "The following elements could not be captured via search engines and need manual verification.",
+    "items": [
+      "Image/video cards (if any)",
+      "Text cards with Markdown content (if any)",
+      "Card sizes (1x1 / 1x2 / 2x1 / 2x2) for all cards",
+      "Exact card ordering",
+      "Card cover images",
+      "Additional section titles",
+      "Additional link cards (Bluesky, personal site, Talks, Nólëbase, etc.)",
+      "Page theme/style (background color, fonts, etc.)",
+      "Bento-specific avatar (may differ from GitHub)"
+    ]
+  },
+  "social_accounts": [
+    { "platform": "GitHub", "handle": "LittleSound", "url": "https://github.com/LittleSound" },
+    { "platform": "X/Twitter (zh-cn)", "handle": "@OikawaRizumu", "url": "https://x.com/OikawaRizumu" },
+    { "platform": "X/Twitter (main)", "handle": "@RizumuA3", "url": "https://x.com/RizumuA3" },
+    { "platform": "Mastodon", "handle": "@rizumu@mas.to", "url": "https://mas.to/@rizumu" },
+    { "platform": "Bluesky", "handle": "@rizumu.ayaka.moe", "url": "https://bsky.app/profile/rizumu.ayaka.moe" },
+    { "platform": "Email", "handle": "rizumu@ayaka.moe", "url": "mailto:rizumu@ayaka.moe" },
+    { "platform": "Personal Site", "handle": "rizumu.ayaka.moe", "url": "https://rizumu.ayaka.moe" },
+    { "platform": "Resume", "handle": "resume-rizumu.ayaka.moe", "url": "https://resume-rizumu.ayaka.moe" },
+    { "platform": "Nólëbase", "handle": "nolebase.ayaka.io", "url": "https://nolebase.ayaka.io" },
+    { "platform": "Talks", "handle": "LittleSound/talks", "url": "https://github.com/LittleSound/talks" },
+    { "platform": "GitHub Sponsors", "handle": "LittleSound", "url": "https://github.com/sponsors/LittleSound" }
+  ]
+}
