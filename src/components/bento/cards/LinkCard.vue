@@ -31,14 +31,18 @@ const platform = computed(() => {
     return 'bluesky'
   if (host.includes('instagram'))
     return 'instagram'
-  if (host.includes('mastodon') || host.includes('mas.to') || host.includes('elk.zone'))
+  if (host.includes('mastodon') || host.includes('mas.to'))
     return 'mastodon'
+  if (host.includes('elk.zone'))
+    return 'elk'
   if (host.includes('threads'))
     return 'threads'
   if (host.includes('marketplace.visualstudio'))
     return 'vscode'
   if (host.includes('comfy'))
     return 'comfy'
+  if (host.includes('nolebase'))
+    return 'nolebase'
   return 'generic'
 })
 
@@ -49,9 +53,11 @@ const iconClass = computed(() => {
     bluesky: 'i-simple-icons-bluesky',
     instagram: 'i-simple-icons-instagram',
     mastodon: 'i-simple-icons-mastodon',
+    elk: 'i-game-icons-deer',
     threads: 'i-simple-icons-threads',
     vscode: 'i-simple-icons-visualstudiocode',
-    comfy: 'i-heroicons-sparkles-solid',
+    comfy: 'i-hugeicons-workflow-square-03',
+    nolebase: 'i-material-symbols-book-4-spark-outline',
     generic: 'i-heroicons-link-solid',
   }
   return icons[platform.value] || icons.generic
@@ -65,9 +71,11 @@ const gradientClass = computed(() => {
     bluesky: 'gradient-bluesky',
     instagram: 'gradient-instagram',
     mastodon: 'gradient-mastodon',
+    elk: 'gradient-elk',
     threads: 'gradient-threads',
     vscode: 'gradient-vscode',
     comfy: 'gradient-comfy',
+    nolebase: 'gradient-nolebase',
     generic: 'gradient-generic',
   }
   return gradients[platform.value] || gradients.generic
@@ -135,7 +143,7 @@ const gradientClass = computed(() => {
   min-height: 100%;
 }
 
-/* Empty link card base style (no bg-white overlay) */
+/* Empty link card - always dark style, no bg overlay */
 .empty-link-card {
   backdrop-filter: blur(24px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -145,8 +153,8 @@ const gradientClass = computed(() => {
   transition: all 0.2s;
 }
 .empty-link-card:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.125rem);
 }
 
 .og-overlay {
@@ -191,6 +199,11 @@ const gradientClass = computed(() => {
   background: linear-gradient(135deg, #6364ff 0%, #858afa 50%, #4a4aff 100%);
 }
 
+.gradient-elk {
+  /* 应该是橙色系渐变，麋鹿的颜色，因为文字是白色的，需要避免太像白色的亮黄色 */
+  background: linear-gradient(135deg, #ff7e00 0%, #ff9a33 50%, #cc6600 100%);
+}
+
 .gradient-threads {
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #0a0a0a 100%);
 }
@@ -201,6 +214,10 @@ const gradientClass = computed(() => {
 
 .gradient-comfy {
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+}
+
+.gradient-nolebase {
+  background: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #9333ea 100%);
 }
 
 .gradient-generic {
