@@ -1,0 +1,599 @@
+{
+  "props": {
+    "pageProps": {
+      "profile": {
+        "id": "clx1nr6yd06oco20162ez35th",
+        "name": "LittleSound｜Rizumu",
+        "handle": "rizumu",
+        "bento": {
+          "items": [
+            {
+              "data": {
+                "id": "RoP74CFCSVZghLQw",
+                "href": "https://github.com/LittleSound",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "GitHub", "type": "text" }]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 6 }, "desktop": { "x": 0, "y": 2 } }
+            },
+            {
+              "data": {
+                "id": "ufLGrZy2U50huLS2",
+                "url": "assets/card-image-1-zhang-da-zui.png",
+                "type": "media",
+                "style": { "mobile": "2x2", "desktop": "2x2" },
+                "caption": { "type": "doc", "content": [{ "type": "paragraph" }] },
+                "variant": "image"
+              },
+              "position": { "mobile": { "x": 0, "y": 0 }, "desktop": { "x": 0, "y": 0 } }
+            },
+            {
+              "data": {
+                "id": "1XCmPctERAJR9dji",
+                "href": "https://www.google.com/maps/@31.222416000000003,121.473701,7.94133762812454z",
+                "type": "link",
+                "style": { "mobile": "2x2", "desktop": "2x2" },
+                "overrides": {
+                  "mapPlace": "Shanghai, 上海市中国",
+                  "mapCaption": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Shanghai", "type": "text" }]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 2, "y": 0 }, "desktop": { "x": 2, "y": 0 } }
+            },
+            {
+              "data": {
+                "id": "jiFkshBZykVlnVZ2",
+                "href": "https://github.com/vuejs/core-vapor",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Vue: Vapor Mode - High performance, no Virtual DOM",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FN23NlT6KL0p47YlO-cPZdFgztW8AssWiGeBXAESWbi1nDoNDYXKLwFNrZmB0.webp"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 25 }, "desktop": { "x": 0, "y": 17 } }
+            },
+            {
+              "data": {
+                "id": "h6F4yqRafNNeGHaj",
+                "type": "section-header",
+                "title": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [{ "text": "Products｜Works", "type": "text" }]
+                    }
+                  ]
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 24 }, "desktop": { "x": 0, "y": 16 } }
+            },
+            {
+              "data": {
+                "id": "mvW5bIMjGIJpw6SB",
+                "href": "https://elk.zone/home",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          { "text": "Elk - a nifty Mastodon client", "type": "text" }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 41 }, "desktop": { "x": 4, "y": 23 } }
+            },
+            {
+              "data": {
+                "id": "bPYUbDKWkzhr7syE",
+                "href": "https://nolebase-integrations.ayaka.io/",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Nólëbase Integrations - Upgrade your VitePress!",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 29 }, "desktop": { "x": 4, "y": 19 } }
+            },
+            {
+              "data": {
+                "id": "1H9ZOdv2K169dVFh",
+                "url": "assets/card-image-4-vueconf-vapor-team.jpeg",
+                "href": "https://x.com/OikawaRizumu/status/1791350413834547458",
+                "type": "media",
+                "style": { "mobile": "2x2", "desktop": "2x2" },
+                "caption": { "type": "doc", "content": [{ "type": "paragraph" }] },
+                "variant": "image"
+              },
+              "position": { "mobile": { "x": 0, "y": 2 }, "desktop": { "x": 6, "y": 2 } }
+            },
+            {
+              "data": {
+                "id": "iLWJB3cPn8lnaqzF",
+                "href": "https://marketplace.visualstudio.com/items?itemName=rzmu.interline-translate&ssr=false#overview",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Interline Translate  行间翻译 - VSCode Extenstion",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FDrnZ14Lyhh654FFN-interline-translate-logo-2.png"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 49 }, "desktop": { "x": 4, "y": 17 } }
+            },
+            {
+              "data": {
+                "id": "CZN2yMtScVB1BHEu",
+                "href": "http://Guii.AI",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Guii.AI - Guii AI as your pair programming partner. Use multimodal prompts to generate the frontend.",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FvpR1gvlv72raZDd5-Demo%25E9%2580%2589%25E4%25B8%25AD%25E6%2596%2587%25E6%259C%25AC.png"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 37 }, "desktop": { "x": 4, "y": 27 } }
+            },
+            {
+              "data": {
+                "id": "beFQaz2prCOU0HOp",
+                "href": "https://qrss.netlify.app/",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Qrs - Stream data through multiple QRCodes",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FLuaIMZacXJ3H9hVu-IMG_562.JPEG"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 45 }, "desktop": { "x": 0, "y": 29 } }
+            },
+            {
+              "data": {
+                "id": "C36cnjNeIoLoYBss",
+                "href": "https://mas.to/@rizumu",
+                "type": "link",
+                "style": { "mobile": "1x4", "desktop": "1x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "[Idle] Rizumu (@rizumu@mas.to)",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 17 }, "desktop": { "x": 4, "y": 9 } }
+            },
+            {
+              "data": {
+                "id": "z0xzmu1c3yjL5Dnq",
+                "href": "https://www.instagram.com/aarzmu/",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Instagram", "type": "text" }]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 15 }, "desktop": { "x": 0, "y": 9 } }
+            },
+            {
+              "data": {
+                "id": "RDRWcaVtq3v5IDNP",
+                "href": "https://www.threads.net/@aarzmu",
+                "type": "link",
+                "style": { "mobile": "1x4", "desktop": "1x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "[Idle] Rizumu Ayaka (@aarzmu) ",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 18 }, "desktop": { "x": 4, "y": 10 } }
+            },
+            {
+              "data": {
+                "id": "m3P2VQagh5Lww9gw",
+                "type": "section-header",
+                "title": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [{ "text": "Sharing", "type": "text" }]
+                    }
+                  ]
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 19 }, "desktop": { "x": 0, "y": 11 } }
+            },
+            {
+              "data": {
+                "id": "VAKo8dCTEMmySOLt",
+                "href": "https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Notes", "type": "text" }]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 20 }, "desktop": { "x": 0, "y": 12 } }
+            },
+            {
+              "data": {
+                "id": "pT2g5gf4quQPNyr2",
+                "type": "section-header",
+                "title": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [{ "text": "Social", "type": "text" }]
+                    }
+                  ]
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 10 }, "desktop": { "x": 0, "y": 6 } }
+            },
+            {
+              "data": {
+                "id": "i8KiVz9pdUAd6cQH",
+                "href": "https://github.com/LittleSound/talks/#readme",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Talks", "type": "text" }]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FoSa62C9BQgPCDpSX-AYI04116-opq3178947834.jpg"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 22 }, "desktop": { "x": 4, "y": 12 } }
+            },
+            {
+              "data": {
+                "id": "Sy1yJnU9lNPX1Yyy",
+                "url": "assets/card-image-2-photo.jpeg",
+                "crop": { "desktop": { "offsetX": 0, "offsetY": -0.4101297129755435 } },
+                "type": "media",
+                "style": { "mobile": "2x2", "desktop": "2x4" },
+                "caption": { "type": "doc", "content": [{ "type": "paragraph" }] },
+                "variant": "image"
+              },
+              "position": { "mobile": { "x": 0, "y": 4 }, "desktop": { "x": 4, "y": 0 } }
+            },
+            {
+              "data": {
+                "id": "5EV2lXrbkjkn0m85",
+                "url": "assets/card-image-3-photo.jpeg",
+                "type": "media",
+                "style": { "mobile": "4x2", "desktop": "4x2" },
+                "variant": "image"
+              },
+              "position": { "mobile": { "x": 2, "y": 2 }, "desktop": { "x": 4, "y": 2 } }
+            },
+            {
+              "data": {
+                "id": "EKKV3s8wq1sT0ZtL",
+                "href": "https://www.comfy.org/zh-cn/",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "ComfyUI - Generate video, images, audio with AI",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 53 }, "desktop": { "x": 0, "y": 25 } }
+            },
+            {
+              "data": {
+                "id": "6pBheVpPDlXtcaXR",
+                "href": "https://x.com/OikawaRizumu/status/1895768739100172625",
+                "type": "link",
+                "style": { "mobile": "4x4", "desktop": "4x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Dev Cookies - 3D Printed Developer Goods",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FFkD7K898lGEvpami-CleanShot%25202025-08-25%2520at%252011.15.51%25402x.png"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 33 }, "desktop": { "x": 0, "y": 21 } }
+            },
+            {
+              "data": {
+                "id": "WApMdOv2fcZbvlRw",
+                "url": "assets/card-image-5-github-contrib.png",
+                "href": "https://github.com/LittleSound",
+                "type": "media",
+                "style": { "mobile": "2x4", "desktop": "2x4" },
+                "variant": "image"
+              },
+              "position": { "mobile": { "x": 0, "y": 8 }, "desktop": { "x": 0, "y": 4 } }
+            },
+            {
+              "data": {
+                "bg": "#fff",
+                "id": "11TiuPMRoEIb2qDT",
+                "href": "https://github.com/LittleSound",
+                "type": "rich-text",
+                "style": { "mobile": "1x4", "desktop": "1x4" },
+                "halign": { "desktop": "left" },
+                "valign": { "desktop": "top" },
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [{ "text": "Find more…", "type": "text" }]
+                    }
+                  ]
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 57 }, "desktop": { "x": 0, "y": 31 } }
+            },
+            {
+              "data": {
+                "id": "Jf8y1JRKLGFWRLj2",
+                "href": "https://bsky.app/profile/rizumu.ayaka.moe",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Bluesky (en)", "type": "text" }]
+                      }
+                    ]
+                  },
+                  "ogImage": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FrsRdPgbNwRsFLgM9-CleanShot%25202025-08-25%2520at%252014.31.33%25402x.png"
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 13 }, "desktop": { "x": 4, "y": 7 } }
+            },
+            {
+              "data": {
+                "id": "PziLc0lDz8MYUnUJ",
+                "href": "https://x.com/RizumuA3",
+                "type": "link",
+                "style": { "mobile": "2x4", "desktop": "2x4" },
+                "overrides": {
+                  "title": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [{ "text": "Twitter (zh-cn)", "type": "text" }]
+                      }
+                    ]
+                  }
+                }
+              },
+              "position": { "mobile": { "x": 0, "y": 11 }, "desktop": { "x": 0, "y": 7 } }
+            }
+          ],
+          "version": "v2"
+        },
+        "image": "https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2F1C0DBc0ivhsGu1nM-%25E9%25AB%2598%25E6%25B8%2585%25E5%25A4%25B4%25E5%2583%258F-ai%25E9%2587%258D%25E7%25BB%2598.png",
+        "bio": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "🔥 A happy pessimist and love open source!",
+                  "type": "text",
+                  "marks": [{ "type": "bold" }]
+                }
+              ]
+            },
+            { "type": "paragraph" },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "💚 Working on Vue Vapor Mode", "type": "text" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "🛠 3D Print→ Made a lot of Dev goods", "type": "text" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "🎮 love Nintendo & Souls-like games.", "type": "text" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "🏳️\u200d⚧️ she/her ｜ 🧠 AuDHD", "type": "text" }
+              ]
+            },
+            { "type": "paragraph" },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "Member of @vuejs and @elk-zone @nolebase @project-trans",
+                  "type": "text"
+                }
+              ]
+            },
+            { "type": "paragraph" },
+            {
+              "type": "paragraph",
+              "content": [
+                { "text": "📧 Mail→ rizumu@ayaka.moe", "type": "text" }
+              ]
+            }
+          ]
+        },
+        "ogImage": "https://storage.googleapis.com/creatorspace-public/og/clx1nr6yd06oco20162ez35th/og-default.png",
+        "createdAt": "2024-06-05T10:00:29.173Z"
+      }
+    }
+  },
+  "page": "/[handle]",
+  "query": { "handle": "rizumu" },
+  "buildId": "jHLEOKNqcokqFmBkJthxo"
+}
