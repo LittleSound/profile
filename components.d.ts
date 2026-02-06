@@ -8,7 +8,18 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AvatarFrame: typeof import('./src/components/profile/AvatarFrame.vue')['default']
+    BentoCard: typeof import('./src/components/bento/BentoCard.vue')['default']
+    BentoGrid: typeof import('./src/components/bento/BentoGrid.vue')['default']
+    FloatingBar: typeof import('./src/components/ui/FloatingBar.vue')['default']
+    LinkCard: typeof import('./src/components/bento/cards/LinkCard.vue')['default']
+    MapCard: typeof import('./src/components/bento/cards/MapCard.vue')['default']
+    MediaCard: typeof import('./src/components/bento/cards/MediaCard.vue')['default']
+    ProfileSection: typeof import('./src/components/profile/ProfileSection.vue')['default']
+    RichTextCard: typeof import('./src/components/bento/cards/RichTextCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SectionHeader: typeof import('./src/components/bento/cards/SectionHeader.vue')['default']
+    ThemeToggle: typeof import('./src/components/ui/ThemeToggle.vue')['default']
   }
 }

@@ -1,12 +1,10 @@
 # Bento.me 完整备份 — bento.me/rizumu
 
 > **备份日期:** 2026-02-06
-> **原始 URL:** https://bento.me/rizumu
-> **关闭日期:** 2026-02-13
+> **原始 URL:** https://bento.me/rizumu > **关闭日期:** 2026-02-13
 > **数据来源:** 页面 `__NEXT_DATA__` JSON（精确数据）
 > **Bento 版本:** v2
-> **Profile ID:** `clx1nr6yd06oco20162ez35th`
-> **创建时间:** 2024-06-05T10:00:29.173Z
+> **Profile ID:** `clx1nr6yd06oco20162ez35th` > **创建时间:** 2024-06-05T10:00:29.173Z
 
 ---
 
@@ -77,283 +75,283 @@ Bento 内部使用网格坐标系统。尺寸格式为 `宽x高`（网格单位�
 
 #### #1 图片卡片 — 张大嘴表情
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `ufLGrZy2U50huLS2` | |
-| **类型** | `media` (image) | |
-| **尺寸** | 2x2 | 2x2 |
-| **位置** | x:0, y:0 | x:0, y:0 |
-| **图片URL** | `assets/card-image-1-zhang-da-zui.png` | |
-| **链接** | 无 | |
-| **标签文本** | 无 | |
+| 字段         | Desktop                                | Mobile   |
+| ------------ | -------------------------------------- | -------- |
+| **ID**       | `ufLGrZy2U50huLS2`                     |          |
+| **类型**     | `media` (image)                        |          |
+| **尺寸**     | 2x2                                    | 2x2      |
+| **位置**     | x:0, y:0                               | x:0, y:0 |
+| **图片URL**  | `assets/card-image-1-zhang-da-zui.png` |          |
+| **链接**     | 无                                     |          |
+| **标签文本** | 无                                     |          |
 
 #### #2 地图卡片 — Shanghai
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `1XCmPctERAJR9dji` | |
-| **类型** | `link` (map) | |
-| **尺寸** | 2x2 | 2x2 |
-| **位置** | x:2, y:0 | x:2, y:0 |
-| **链接** | `https://www.google.com/maps/@31.222416000000003,121.473701,7.94133762812454z` | |
-| **mapPlace** | `Shanghai, 上海市中国` | |
-| **mapCaption** | `Shanghai` | |
+| 字段           | Desktop                                                                        | Mobile   |
+| -------------- | ------------------------------------------------------------------------------ | -------- |
+| **ID**         | `1XCmPctERAJR9dji`                                                             |          |
+| **类型**       | `link` (map)                                                                   |          |
+| **尺寸**       | 2x2                                                                            | 2x2      |
+| **位置**       | x:2, y:0                                                                       | x:2, y:0 |
+| **链接**       | `https://www.google.com/maps/@31.222416000000003,121.473701,7.94133762812454z` |          |
+| **mapPlace**   | `Shanghai, 上海市中国`                                                         |          |
+| **mapCaption** | `Shanghai`                                                                     |          |
 
 #### #3 图片卡片 — 照片
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `Sy1yJnU9lNPX1Yyy` | |
-| **类型** | `media` (image) | |
-| **尺寸** | 2x4 | 2x2 |
-| **位置** | x:4, y:0 | x:0, y:4 |
-| **图片URL** | `assets/card-image-2-photo.jpeg` | |
-| **裁剪** | desktop: offsetX=0, offsetY=-0.41 | |
+| 字段        | Desktop                           | Mobile   |
+| ----------- | --------------------------------- | -------- |
+| **ID**      | `Sy1yJnU9lNPX1Yyy`                |          |
+| **类型**    | `media` (image)                   |          |
+| **尺寸**    | 2x4                               | 2x2      |
+| **位置**    | x:4, y:0                          | x:0, y:4 |
+| **图片URL** | `assets/card-image-2-photo.jpeg`  |          |
+| **裁剪**    | desktop: offsetX=0, offsetY=-0.41 |          |
 
 #### #4 链接卡片 — GitHub
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `RoP74CFCSVZghLQw` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 2x4 |
-| **位置** | x:0, y:2 | x:0, y:6 |
-| **链接** | `https://github.com/LittleSound` | |
-| **标题覆盖** | `GitHub` | |
+| 字段         | Desktop                          | Mobile   |
+| ------------ | -------------------------------- | -------- |
+| **ID**       | `RoP74CFCSVZghLQw`               |          |
+| **类型**     | `link`                           |          |
+| **尺寸**     | 2x4                              | 2x4      |
+| **位置**     | x:0, y:2                         | x:0, y:6 |
+| **链接**     | `https://github.com/LittleSound` |          |
+| **标题覆盖** | `GitHub`                         |          |
 
 #### #5 图片卡片 — 照片 (横幅)
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `5EV2lXrbkjkn0m85` | |
-| **类型** | `media` (image) | |
-| **尺寸** | 4x2 | 4x2 |
-| **位置** | x:4, y:2 | x:2, y:2 |
-| **图片URL** | `assets/card-image-3-photo.jpeg` | |
+| 字段        | Desktop                          | Mobile   |
+| ----------- | -------------------------------- | -------- |
+| **ID**      | `5EV2lXrbkjkn0m85`               |          |
+| **类型**    | `media` (image)                  |          |
+| **尺寸**    | 4x2                              | 4x2      |
+| **位置**    | x:4, y:2                         | x:2, y:2 |
+| **图片URL** | `assets/card-image-3-photo.jpeg` |          |
 
 #### #6 图片卡片 — VueConf Vapor Team
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `1H9ZOdv2K169dVFh` | |
-| **类型** | `media` (image) | |
-| **尺寸** | 2x2 | 2x2 |
-| **位置** | x:6, y:2 | x:0, y:2 |
-| **图片URL** | `assets/card-image-4-vueconf-vapor-team.jpeg` | |
-| **链接** | `https://x.com/OikawaRizumu/status/1791350413834547458` | |
+| 字段        | Desktop                                                 | Mobile   |
+| ----------- | ------------------------------------------------------- | -------- |
+| **ID**      | `1H9ZOdv2K169dVFh`                                      |          |
+| **类型**    | `media` (image)                                         |          |
+| **尺寸**    | 2x2                                                     | 2x2      |
+| **位置**    | x:6, y:2                                                | x:0, y:2 |
+| **图片URL** | `assets/card-image-4-vueconf-vapor-team.jpeg`           |          |
+| **链接**    | `https://x.com/OikawaRizumu/status/1791350413834547458` |          |
 
 #### #7 图片卡片 — GitHub Contributions 截图
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `WApMdOv2fcZbvlRw` | |
-| **类型** | `media` (image) | |
-| **尺寸** | 2x4 | 2x4 |
-| **位置** | x:0, y:4 | x:0, y:8 |
-| **图片URL** | `assets/card-image-5-github-contrib.png` | |
-| **链接** | `https://github.com/LittleSound` | |
+| 字段        | Desktop                                  | Mobile   |
+| ----------- | ---------------------------------------- | -------- |
+| **ID**      | `WApMdOv2fcZbvlRw`                       |          |
+| **类型**    | `media` (image)                          |          |
+| **尺寸**    | 2x4                                      | 2x4      |
+| **位置**    | x:0, y:4                                 | x:0, y:8 |
+| **图片URL** | `assets/card-image-5-github-contrib.png` |          |
+| **链接**    | `https://github.com/LittleSound`         |          |
 
 ---
 
 ### ── Section Title: "Social" ──
 
-| 字段 | 值 |
-|---|---|
-| **ID** | `pT2g5gf4quQPNyr2` |
-| **Desktop 位置** | x:0, y:6 |
-| **Mobile 位置** | x:0, y:10 |
+| 字段             | 值                 |
+| ---------------- | ------------------ |
+| **ID**           | `pT2g5gf4quQPNyr2` |
+| **Desktop 位置** | x:0, y:6           |
+| **Mobile 位置**  | x:0, y:10          |
 
 #### #8 链接卡片 — Twitter (zh-cn)
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `PziLc0lDz8MYUnUJ` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 2x4 |
-| **位置** | x:0, y:7 | x:0, y:11 |
-| **链接** | `https://x.com/RizumuA3` | |
-| **标题覆盖** | `Twitter (zh-cn)` | |
+| 字段         | Desktop                  | Mobile    |
+| ------------ | ------------------------ | --------- |
+| **ID**       | `PziLc0lDz8MYUnUJ`       |           |
+| **类型**     | `link`                   |           |
+| **尺寸**     | 2x4                      | 2x4       |
+| **位置**     | x:0, y:7                 | x:0, y:11 |
+| **链接**     | `https://x.com/RizumuA3` |           |
+| **标题覆盖** | `Twitter (zh-cn)`        |           |
 
 #### #9 链接卡片 — Bluesky (en)
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `Jf8y1JRKLGFWRLj2` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 2x4 |
-| **位置** | x:4, y:7 | x:0, y:13 |
-| **链接** | `https://bsky.app/profile/rizumu.ayaka.moe` | |
-| **标题覆盖** | `Bluesky (en)` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FrsRdPgbNwRsFLgM9-CleanShot%25202025-08-25%2520at%252014.31.33%25402x.png` | |
+| 字段           | Desktop                                                                                                                                                           | Mobile    |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| **ID**         | `Jf8y1JRKLGFWRLj2`                                                                                                                                                |           |
+| **类型**       | `link`                                                                                                                                                            |           |
+| **尺寸**       | 2x4                                                                                                                                                               | 2x4       |
+| **位置**       | x:4, y:7                                                                                                                                                          | x:0, y:13 |
+| **链接**       | `https://bsky.app/profile/rizumu.ayaka.moe`                                                                                                                       |           |
+| **标题覆盖**   | `Bluesky (en)`                                                                                                                                                    |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FrsRdPgbNwRsFLgM9-CleanShot%25202025-08-25%2520at%252014.31.33%25402x.png` |           |
 
 #### #10 链接卡片 — Instagram
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `z0xzmu1c3yjL5Dnq` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 2x4 |
-| **位置** | x:0, y:9 | x:0, y:15 |
-| **链接** | `https://www.instagram.com/aarzmu/` | |
-| **标题覆盖** | `Instagram` | |
+| 字段         | Desktop                             | Mobile    |
+| ------------ | ----------------------------------- | --------- |
+| **ID**       | `z0xzmu1c3yjL5Dnq`                  |           |
+| **类型**     | `link`                              |           |
+| **尺寸**     | 2x4                                 | 2x4       |
+| **位置**     | x:0, y:9                            | x:0, y:15 |
+| **链接**     | `https://www.instagram.com/aarzmu/` |           |
+| **标题覆盖** | `Instagram`                         |           |
 
 #### #11 链接卡片 — Mastodon
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `C36cnjNeIoLoYBss` | |
-| **类型** | `link` | |
-| **尺寸** | 1x4 | 1x4 |
-| **位置** | x:4, y:9 | x:0, y:17 |
-| **链接** | `https://mas.to/@rizumu` | |
-| **标题覆盖** | `[Idle] Rizumu (@rizumu@mas.to)` | |
+| 字段         | Desktop                          | Mobile    |
+| ------------ | -------------------------------- | --------- |
+| **ID**       | `C36cnjNeIoLoYBss`               |           |
+| **类型**     | `link`                           |           |
+| **尺寸**     | 1x4                              | 1x4       |
+| **位置**     | x:4, y:9                         | x:0, y:17 |
+| **链接**     | `https://mas.to/@rizumu`         |           |
+| **标题覆盖** | `[Idle] Rizumu (@rizumu@mas.to)` |           |
 
 #### #12 链接卡片 — Threads
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `RDRWcaVtq3v5IDNP` | |
-| **类型** | `link` | |
-| **尺寸** | 1x4 | 1x4 |
-| **位置** | x:4, y:10 | x:0, y:18 |
-| **链接** | `https://www.threads.net/@aarzmu` | |
-| **标题覆盖** | `[Idle] Rizumu Ayaka (@aarzmu)` | |
+| 字段         | Desktop                           | Mobile    |
+| ------------ | --------------------------------- | --------- |
+| **ID**       | `RDRWcaVtq3v5IDNP`                |           |
+| **类型**     | `link`                            |           |
+| **尺寸**     | 1x4                               | 1x4       |
+| **位置**     | x:4, y:10                         | x:0, y:18 |
+| **链接**     | `https://www.threads.net/@aarzmu` |           |
+| **标题覆盖** | `[Idle] Rizumu Ayaka (@aarzmu)`   |           |
 
 ---
 
 ### ── Section Title: "Sharing" ──
 
-| 字段 | 值 |
-|---|---|
-| **ID** | `m3P2VQagh5Lww9gw` |
-| **Desktop 位置** | x:0, y:11 |
-| **Mobile 位置** | x:0, y:19 |
+| 字段             | 值                 |
+| ---------------- | ------------------ |
+| **ID**           | `m3P2VQagh5Lww9gw` |
+| **Desktop 位置** | x:0, y:11          |
+| **Mobile 位置**  | x:0, y:19          |
 
 #### #13 链接卡片 — Notes
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `VAKo8dCTEMmySOLt` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 2x4 |
-| **位置** | x:0, y:12 | x:0, y:20 |
-| **链接** | `https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/` | |
-| **标题覆盖** | `Notes` | |
+| 字段         | Desktop                                               | Mobile    |
+| ------------ | ----------------------------------------------------- | --------- |
+| **ID**       | `VAKo8dCTEMmySOLt`                                    |           |
+| **类型**     | `link`                                                |           |
+| **尺寸**     | 4x4                                                   | 2x4       |
+| **位置**     | x:0, y:12                                             | x:0, y:20 |
+| **链接**     | `https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/` |           |
+| **标题覆盖** | `Notes`                                               |           |
 
 #### #14 链接卡片 — Talks
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `i8KiVz9pdUAd6cQH` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 2x4 |
-| **位置** | x:4, y:12 | x:0, y:22 |
-| **链接** | `https://github.com/LittleSound/talks/#readme` | |
-| **标题覆盖** | `Talks` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FoSa62C9BQgPCDpSX-AYI04116-opq3178947834.jpg` | |
+| 字段           | Desktop                                                                                                                              | Mobile    |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| **ID**         | `i8KiVz9pdUAd6cQH`                                                                                                                   |           |
+| **类型**       | `link`                                                                                                                               |           |
+| **尺寸**       | 4x4                                                                                                                                  | 2x4       |
+| **位置**       | x:4, y:12                                                                                                                            | x:0, y:22 |
+| **链接**       | `https://github.com/LittleSound/talks/#readme`                                                                                       |           |
+| **标题覆盖**   | `Talks`                                                                                                                              |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FoSa62C9BQgPCDpSX-AYI04116-opq3178947834.jpg` |           |
 
 ---
 
 ### ── Section Title: "Products｜Works" ──
 
-| 字段 | 值 |
-|---|---|
-| **ID** | `h6F4yqRafNNeGHaj` |
-| **Desktop 位置** | x:0, y:16 |
-| **Mobile 位置** | x:0, y:24 |
+| 字段             | 值                 |
+| ---------------- | ------------------ |
+| **ID**           | `h6F4yqRafNNeGHaj` |
+| **Desktop 位置** | x:0, y:16          |
+| **Mobile 位置**  | x:0, y:24          |
 
 #### #15 链接卡片 — Vue: Vapor Mode
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `jiFkshBZykVlnVZ2` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:0, y:17 | x:0, y:25 |
-| **链接** | `https://github.com/vuejs/core-vapor` | |
-| **标题覆盖** | `Vue: Vapor Mode - High performance, no Virtual DOM` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FN23NlT6KL0p47YlO-cPZdFgztW8AssWiGeBXAESWbi1nDoNDYXKLwFNrZmB0.webp` | |
+| 字段           | Desktop                                                                                                                                                    | Mobile    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| **ID**         | `jiFkshBZykVlnVZ2`                                                                                                                                         |           |
+| **类型**       | `link`                                                                                                                                                     |           |
+| **尺寸**       | 4x4                                                                                                                                                        | 4x4       |
+| **位置**       | x:0, y:17                                                                                                                                                  | x:0, y:25 |
+| **链接**       | `https://github.com/vuejs/core-vapor`                                                                                                                      |           |
+| **标题覆盖**   | `Vue: Vapor Mode - High performance, no Virtual DOM`                                                                                                       |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FN23NlT6KL0p47YlO-cPZdFgztW8AssWiGeBXAESWbi1nDoNDYXKLwFNrZmB0.webp` |           |
 
 #### #16 链接卡片 — Interline Translate 行间翻译
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `iLWJB3cPn8lnaqzF` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 4x4 |
-| **位置** | x:4, y:17 | x:0, y:49 |
-| **链接** | `https://marketplace.visualstudio.com/items?itemName=rzmu.interline-translate&ssr=false#overview` | |
-| **标题覆盖** | `Interline Translate  行间翻译 - VSCode Extenstion` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FDrnZ14Lyhh654FFN-interline-translate-logo-2.png` | |
+| 字段           | Desktop                                                                                                                                  | Mobile    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| **ID**         | `iLWJB3cPn8lnaqzF`                                                                                                                       |           |
+| **类型**       | `link`                                                                                                                                   |           |
+| **尺寸**       | 2x4                                                                                                                                      | 4x4       |
+| **位置**       | x:4, y:17                                                                                                                                | x:0, y:49 |
+| **链接**       | `https://marketplace.visualstudio.com/items?itemName=rzmu.interline-translate&ssr=false#overview`                                        |           |
+| **标题覆盖**   | `Interline Translate  行间翻译 - VSCode Extenstion`                                                                                      |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FDrnZ14Lyhh654FFN-interline-translate-logo-2.png` |           |
 
 #### #17 链接卡片 — Nólëbase Integrations
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `bPYUbDKWkzhr7syE` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:4, y:19 | x:0, y:29 |
-| **链接** | `https://nolebase-integrations.ayaka.io/` | |
-| **标题覆盖** | `Nólëbase Integrations - Upgrade your VitePress!` | |
+| 字段         | Desktop                                           | Mobile    |
+| ------------ | ------------------------------------------------- | --------- |
+| **ID**       | `bPYUbDKWkzhr7syE`                                |           |
+| **类型**     | `link`                                            |           |
+| **尺寸**     | 4x4                                               | 4x4       |
+| **位置**     | x:4, y:19                                         | x:0, y:29 |
+| **链接**     | `https://nolebase-integrations.ayaka.io/`         |           |
+| **标题覆盖** | `Nólëbase Integrations - Upgrade your VitePress!` |           |
 
 #### #18 链接卡片 — Dev Cookies
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `6pBheVpPDlXtcaXR` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:0, y:21 | x:0, y:33 |
-| **链接** | `https://x.com/OikawaRizumu/status/1895768739100172625` | |
-| **标题覆盖** | `Dev Cookies - 3D Printed Developer Goods` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FFkD7K898lGEvpami-CleanShot%25202025-08-25%2520at%252011.15.51%25402x.png` | |
+| 字段           | Desktop                                                                                                                                                           | Mobile    |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| **ID**         | `6pBheVpPDlXtcaXR`                                                                                                                                                |           |
+| **类型**       | `link`                                                                                                                                                            |           |
+| **尺寸**       | 4x4                                                                                                                                                               | 4x4       |
+| **位置**       | x:0, y:21                                                                                                                                                         | x:0, y:33 |
+| **链接**       | `https://x.com/OikawaRizumu/status/1895768739100172625`                                                                                                           |           |
+| **标题覆盖**   | `Dev Cookies - 3D Printed Developer Goods`                                                                                                                        |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FFkD7K898lGEvpami-CleanShot%25202025-08-25%2520at%252011.15.51%25402x.png` |           |
 
 #### #19 链接卡片 — Elk
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `mvW5bIMjGIJpw6SB` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:4, y:23 | x:0, y:41 |
-| **链接** | `https://elk.zone/home` | |
-| **标题覆盖** | `Elk - a nifty Mastodon client` | |
+| 字段         | Desktop                         | Mobile    |
+| ------------ | ------------------------------- | --------- |
+| **ID**       | `mvW5bIMjGIJpw6SB`              |           |
+| **类型**     | `link`                          |           |
+| **尺寸**     | 4x4                             | 4x4       |
+| **位置**     | x:4, y:23                       | x:0, y:41 |
+| **链接**     | `https://elk.zone/home`         |           |
+| **标题覆盖** | `Elk - a nifty Mastodon client` |           |
 
 #### #20 链接卡片 — ComfyUI
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `EKKV3s8wq1sT0ZtL` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:0, y:25 | x:0, y:53 |
-| **链接** | `https://www.comfy.org/zh-cn/` | |
-| **标题覆盖** | `ComfyUI - Generate video, images, audio with AI` | |
+| 字段         | Desktop                                           | Mobile    |
+| ------------ | ------------------------------------------------- | --------- |
+| **ID**       | `EKKV3s8wq1sT0ZtL`                                |           |
+| **类型**     | `link`                                            |           |
+| **尺寸**     | 4x4                                               | 4x4       |
+| **位置**     | x:0, y:25                                         | x:0, y:53 |
+| **链接**     | `https://www.comfy.org/zh-cn/`                    |           |
+| **标题覆盖** | `ComfyUI - Generate video, images, audio with AI` |           |
 
 #### #21 链接卡片 — Guii.AI
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `CZN2yMtScVB1BHEu` | |
-| **类型** | `link` | |
-| **尺寸** | 4x4 | 4x4 |
-| **位置** | x:4, y:27 | x:0, y:37 |
-| **链接** | `http://Guii.AI` | |
-| **标题覆盖** | `Guii.AI - Guii AI as your pair programming partner. Use multimodal prompts to generate the frontend.` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FvpR1gvlv72raZDd5-Demo%25E9%2580%2589%25E4%25B8%25AD%25E6%2596%2587%25E6%259C%25AC.png` | |
+| 字段           | Desktop                                                                                                                                                                        | Mobile    |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| **ID**         | `CZN2yMtScVB1BHEu`                                                                                                                                                             |           |
+| **类型**       | `link`                                                                                                                                                                         |           |
+| **尺寸**       | 4x4                                                                                                                                                                            | 4x4       |
+| **位置**       | x:4, y:27                                                                                                                                                                      | x:0, y:37 |
+| **链接**       | `http://Guii.AI`                                                                                                                                                               |           |
+| **标题覆盖**   | `Guii.AI - Guii AI as your pair programming partner. Use multimodal prompts to generate the frontend.`                                                                         |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FvpR1gvlv72raZDd5-Demo%25E9%2580%2589%25E4%25B8%25AD%25E6%2596%2587%25E6%259C%25AC.png` |           |
 
 #### #22 链接卡片 — Qrs
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `beFQaz2prCOU0HOp` | |
-| **类型** | `link` | |
-| **尺寸** | 2x4 | 4x4 |
-| **位置** | x:0, y:29 | x:0, y:45 |
-| **链接** | `https://qrss.netlify.app/` | |
-| **标题覆盖** | `Qrs - Stream data through multiple QRCodes` | |
-| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FLuaIMZacXJ3H9hVu-IMG_562.JPEG` | |
+| 字段           | Desktop                                                                                                                | Mobile    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------- | --------- |
+| **ID**         | `beFQaz2prCOU0HOp`                                                                                                     |           |
+| **类型**       | `link`                                                                                                                 |           |
+| **尺寸**       | 2x4                                                                                                                    | 4x4       |
+| **位置**       | x:0, y:29                                                                                                              | x:0, y:45 |
+| **链接**       | `https://qrss.netlify.app/`                                                                                            |           |
+| **标题覆盖**   | `Qrs - Stream data through multiple QRCodes`                                                                           |           |
+| **OG图片覆盖** | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FLuaIMZacXJ3H9hVu-IMG_562.JPEG` |           |
 
 ---
 
@@ -361,17 +359,17 @@ Bento 内部使用网格坐标系统。尺寸格式为 `宽x高`（网格单位�
 
 #### #23 文本卡片 — Find more…
 
-| 字段 | Desktop | Mobile |
-|---|---|---|
-| **ID** | `11TiuPMRoEIb2qDT` | |
-| **类型** | `rich-text` | |
-| **尺寸** | 1x4 | 1x4 |
-| **位置** | x:0, y:31 | x:0, y:57 |
-| **背景色** | `#fff` | |
-| **水平对齐** | left | |
-| **垂直对齐** | top | |
-| **链接** | `https://github.com/LittleSound` | |
-| **内容** | `Find more…` | |
+| 字段         | Desktop                          | Mobile    |
+| ------------ | -------------------------------- | --------- |
+| **ID**       | `11TiuPMRoEIb2qDT`               |           |
+| **类型**     | `rich-text`                      |           |
+| **尺寸**     | 1x4                              | 1x4       |
+| **位置**     | x:0, y:31                        | x:0, y:57 |
+| **背景色**   | `#fff`                           |           |
+| **水平对齐** | left                             |           |
+| **垂直对齐** | top                              |           |
+| **链接**     | `https://github.com/LittleSound` |           |
+| **内容**     | `Find more…`                     |           |
 
 ---
 
@@ -379,22 +377,22 @@ Bento 内部使用网格坐标系统。尺寸格式为 `宽x高`（网格单位�
 
 共 14 张图片，其中 5 张已用官方导出的本地文件替换（其余仍需手动下载）：
 
-| 文件名 | 用途 | URL |
-|---|---|---|
-| `avatar.png` | 头像 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2F1C0DBc0ivhsGu1nM-%25E9%25AB%2598%25E6%25B8%2585%25E5%25A4%25B4%25E5%2583%258F-ai%25E9%2587%258D%25E7%25BB%2598.png` |
-| `og-default.png` | OG 分享图 | `https://storage.googleapis.com/creatorspace-public/og/clx1nr6yd06oco20162ez35th/og-default.png` |
-| `card-image-1-zhang-da-zui.png` | 卡片#1 张大嘴表情 | `assets/card-image-1-zhang-da-zui.png` |
-| `card-image-2-photo.jpeg` | 卡片#3 照片 | `assets/card-image-2-photo.jpeg` |
-| `card-image-3-photo.jpeg` | 卡片#5 横幅照片 | `assets/card-image-3-photo.jpeg` |
-| `card-image-4-vueconf-vapor-team.jpeg` | 卡片#6 VueConf Vapor Team | `assets/card-image-4-vueconf-vapor-team.jpeg` |
-| `card-image-5-github-contrib.png` | 卡片#7 GitHub Contrib 截图 | `assets/card-image-5-github-contrib.png` |
-| `og-vue-vapor.webp` | Vue Vapor Mode 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FN23NlT6KL0p47YlO-cPZdFgztW8AssWiGeBXAESWbi1nDoNDYXKLwFNrZmB0.webp` |
-| `og-interline-translate.png` | Interline Translate 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FDrnZ14Lyhh654FFN-interline-translate-logo-2.png` |
-| `og-guii-ai.png` | Guii.AI 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FvpR1gvlv72raZDd5-Demo%25E9%2580%2589%25E4%25B8%25AD%25E6%2596%2587%25E6%259C%25AC.png` |
-| `og-qrs.jpeg` | Qrs 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FLuaIMZacXJ3H9hVu-IMG_562.JPEG` |
-| `og-talks.jpg` | Talks 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FoSa62C9BQgPCDpSX-AYI04116-opq3178947834.jpg` |
-| `og-dev-cookies.png` | Dev Cookies 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FFkD7K898lGEvpami-CleanShot%25202025-08-25%2520at%252011.15.51%25402x.png` |
-| `og-bluesky.png` | Bluesky 封面 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FrsRdPgbNwRsFLgM9-CleanShot%25202025-08-25%2520at%252014.31.33%25402x.png` |
+| 文件名                                 | 用途                       | URL                                                                                                                                                                                                         |
+| -------------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `avatar.png`                           | 头像                       | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2F1C0DBc0ivhsGu1nM-%25E9%25AB%2598%25E6%25B8%2585%25E5%25A4%25B4%25E5%2583%258F-ai%25E9%2587%258D%25E7%25BB%2598.png` |
+| `og-default.png`                       | OG 分享图                  | `https://storage.googleapis.com/creatorspace-public/og/clx1nr6yd06oco20162ez35th/og-default.png`                                                                                                            |
+| `card-image-1-zhang-da-zui.png`        | 卡片#1 张大嘴表情          | `assets/card-image-1-zhang-da-zui.png`                                                                                                                                                                      |
+| `card-image-2-photo.jpeg`              | 卡片#3 照片                | `assets/card-image-2-photo.jpeg`                                                                                                                                                                            |
+| `card-image-3-photo.jpeg`              | 卡片#5 横幅照片            | `assets/card-image-3-photo.jpeg`                                                                                                                                                                            |
+| `card-image-4-vueconf-vapor-team.jpeg` | 卡片#6 VueConf Vapor Team  | `assets/card-image-4-vueconf-vapor-team.jpeg`                                                                                                                                                               |
+| `card-image-5-github-contrib.png`      | 卡片#7 GitHub Contrib 截图 | `assets/card-image-5-github-contrib.png`                                                                                                                                                                    |
+| `og-vue-vapor.webp`                    | Vue Vapor Mode 封面        | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FN23NlT6KL0p47YlO-cPZdFgztW8AssWiGeBXAESWbi1nDoNDYXKLwFNrZmB0.webp`                                                  |
+| `og-interline-translate.png`           | Interline Translate 封面   | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FDrnZ14Lyhh654FFN-interline-translate-logo-2.png`                                                                    |
+| `og-guii-ai.png`                       | Guii.AI 封面               | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FvpR1gvlv72raZDd5-Demo%25E9%2580%2589%25E4%25B8%25AD%25E6%2596%2587%25E6%259C%25AC.png`                              |
+| `og-qrs.jpeg`                          | Qrs 封面                   | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FLuaIMZacXJ3H9hVu-IMG_562.JPEG`                                                                                      |
+| `og-talks.jpg`                         | Talks 封面                 | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FoSa62C9BQgPCDpSX-AYI04116-opq3178947834.jpg`                                                                        |
+| `og-dev-cookies.png`                   | Dev Cookies 封面           | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FFkD7K898lGEvpami-CleanShot%25202025-08-25%2520at%252011.15.51%25402x.png`                                           |
+| `og-bluesky.png`                       | Bluesky 封面               | `https://storage.googleapis.com/creatorspace-public/users%2Fclx1nr6yd06oco20162ez35th%2FrsRdPgbNwRsFLgM9-CleanShot%25202025-08-25%2520at%252014.31.33%25402x.png`                                           |
 
 ---
 
@@ -436,15 +434,15 @@ y=31  [Find more… 1x4]
 
 ## 五、关联账号汇总
 
-| 平台 | 标识 | URL |
-|---|---|---|
-| GitHub | LittleSound | https://github.com/LittleSound |
-| X / Twitter (zh-cn) | @RizumuA3 | https://x.com/RizumuA3 |
-| X / Twitter (OikawaRizumu) | @OikawaRizumu | https://x.com/OikawaRizumu |
-| Bluesky (en) | @rizumu.ayaka.moe | https://bsky.app/profile/rizumu.ayaka.moe |
-| Instagram | @aarzmu | https://www.instagram.com/aarzmu/ |
-| Mastodon | @rizumu@mas.to | https://mas.to/@rizumu |
-| Threads | @aarzmu | https://www.threads.net/@aarzmu |
-| Nólëbase Notes | — | https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/ |
-| Talks | — | https://github.com/LittleSound/talks/#readme |
-| Email | rizumu@ayaka.moe | mailto:rizumu@ayaka.moe |
+| 平台                       | 标识              | URL                                                 |
+| -------------------------- | ----------------- | --------------------------------------------------- |
+| GitHub                     | LittleSound       | https://github.com/LittleSound                      |
+| X / Twitter (zh-cn)        | @RizumuA3         | https://x.com/RizumuA3                              |
+| X / Twitter (OikawaRizumu) | @OikawaRizumu     | https://x.com/OikawaRizumu                          |
+| Bluesky (en)               | @rizumu.ayaka.moe | https://bsky.app/profile/rizumu.ayaka.moe           |
+| Instagram                  | @aarzmu           | https://www.instagram.com/aarzmu/                   |
+| Mastodon                   | @rizumu@mas.to    | https://mas.to/@rizumu                              |
+| Threads                    | @aarzmu           | https://www.threads.net/@aarzmu                     |
+| Nólëbase Notes             | —                 | https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/ |
+| Talks                      | —                 | https://github.com/LittleSound/talks/#readme        |
+| Email                      | rizumu@ayaka.moe  | mailto:rizumu@ayaka.moe                             |
