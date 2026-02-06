@@ -12,8 +12,6 @@ const { item, isMobile } = defineProps<{
   isMobile: boolean
 }>()
 
-const position = computed(() => isMobile ? item.position.mobile : item.position.desktop)
-
 const size = computed(() => {
   if (item.data.type === 'section-header') {
     return isMobile ? '4x1' : '8x1'
@@ -21,11 +19,12 @@ const size = computed(() => {
   return (isMobile ? item.data.style.mobile : item.data.style.desktop) as CardSize
 })
 
+/** Only use span, let grid auto-place items */
 const gridStyle = computed(() => {
   const { cols, rows } = parseCardSize(size.value as CardSize)
   return {
-    gridColumn: `${position.value.x + 1} / span ${cols}`,
-    gridRow: `${position.value.y + 1} / span ${rows}`,
+    gridColumn: `span ${cols}`,
+    gridRow: `span ${rows}`,
   }
 })
 

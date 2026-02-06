@@ -20,8 +20,8 @@ export interface ProseMirrorDoc {
   content: ProseMirrorParagraph[]
 }
 
-/** Card size format: "WxH" where W=width, H=height in grid units */
-export type CardSize = '1x4' | '2x2' | '2x4' | '4x2' | '4x4'
+/** Card size format: "WxH" where W=width (cols), H=height (rows) in grid units */
+export type CardSize = '1x1' | '1x2' | '2x1' | '2x2' | '2x4' | '4x1' | '4x2' | '4x4' | '6x2'
 
 /** Position on the grid */
 export interface GridPosition {
