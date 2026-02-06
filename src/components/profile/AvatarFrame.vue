@@ -8,7 +8,7 @@ defineProps<{
 const sizeClasses = {
   sm: 'h-16 w-16',
   md: 'h-24 w-24',
-  lg: 'h-32 w-32',
+  lg: 'h-46 w-46', // 184px
 }
 </script>
 

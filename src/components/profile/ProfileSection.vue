@@ -13,18 +13,18 @@ const bioLines = computed(() => {
 </script>
 
 <template>
-  <div flex="~ col items-center" gap-4>
+  <div flex="~ col items-center" gap-6>
     <AvatarFrame
       :src="profile.image"
       :alt="profile.name"
       size="lg"
     />
 
-    <h1 text-2xl text-gray-900 font-bold dark:text-white>
+    <h1 text-11 text-gray-900 font-bold dark:text-white>
       {{ profile.name }}
     </h1>
 
-    <div flex="~ col" text-sm text-gray-600 gap-1 dark:text-gray-400>
+    <div flex="~ col" text-5 text-gray-600 gap-2 dark:text-gray-400>
       <p
         v-for="(line, index) in bioLines"
         :key="index"
