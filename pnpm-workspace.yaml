@@ -1,7 +1,7 @@
 packages: []
 catalogs:
   build:
-    '@iconify-json/carbon': ^1.2.9
+    '@iconify/json': ^2.2.436
     '@vitejs/plugin-vue': ^5.2.4
     jsdom: ^26.1.0
     unocss: ^66.2.0
