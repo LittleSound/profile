@@ -25,10 +25,10 @@ function copyEmail() {
   <div class="h-17 md:h-25 md:h-auto">
     <div class="p-2 flex pointer-events-none items-end inset-0 justify-center fixed z-99 md:(p-6 flex-col)">
       <div
-        class="floating-bar-container p-3 rounded-2xl flex gap-3 pointer-events-auto items-center md:flex-col"
+        class="floating-bar-container p-3 rounded-2xl flex gap-3 pointer-events-auto items-center"
         glass-container
       >
-        <div class="flex gap-3 items-center md:flex-col">
+        <div class="flex gap-3 items-center">
           <!-- Copy Email Button -->
           <button
             class="copy-btn md:(px-0 py-3 h-auto w-9)"
