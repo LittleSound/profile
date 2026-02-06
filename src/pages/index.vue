@@ -20,20 +20,20 @@ const { isMobile } = useBentoLayout()
 
       mx-auto flex
     >
-      <!-- Profile Section: flex-1 on desktop, expands to fill remaining space -->
+      <!-- Profile Section: flex-1 on desktop, left + top aligned -->
       <aside
         :class="[
-          isMobile ? 'w-full py-8' : 'flex-1 sticky top-0 h-screen',
+          isMobile ? 'w-full py-8 items-center' : 'flex-1 sticky top-0 h-screen items-start pt-20',
         ]"
-        flex="~ col items-center justify-center"
+        flex="~ col"
         p-6
       >
         <ProfileSection :profile="bentoData.profile" />
       </aside>
 
-      <!-- Bento Grid: fixed width on desktop -->
+      <!-- Bento Grid: fixed width, centered on mobile -->
       <main
-        :class="isMobile ? 'w-full' : ''"
+        :class="isMobile ? 'mx-auto' : ''"
         p-4
         shrink-0
       >
