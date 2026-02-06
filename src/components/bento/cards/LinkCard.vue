@@ -108,7 +108,7 @@ const gradientClass = computed(() => {
       rounded-inherit inset-0 absolute overflow-hidden
     >
       <!-- Large decorative icon -->
-      <div class="decorative-icon" :class="iconClass" />
+      <div class="decorative-icon text-gray-200" :class="iconClass" />
     </div>
 
     <!-- Content -->
