@@ -21,11 +21,8 @@ const sortedItems = computed(() => {
 
 <template>
   <div
-
-    :class="isMobile ? 'grid-cols-4' : 'grid-cols-8'"
-
-    p-2 gap-3 grid auto-rows-fr
     class="bento-grid"
+    :class="isMobile ? 'bento-grid--mobile' : 'bento-grid--desktop'"
   >
     <BentoCard
       v-for="item in sortedItems"
@@ -38,13 +35,23 @@ const sortedItems = computed(() => {
 
 <style scoped>
 .bento-grid {
-  --grid-row-height: 80px;
-  grid-auto-rows: var(--grid-row-height);
+  --cell-size: 80px;
+  --gap: 12px;
+  display: grid;
+  gap: var(--gap);
+  padding: 8px;
 }
 
-@media (max-width: 768px) {
-  .bento-grid {
-    --grid-row-height: 60px;
-  }
+/* Desktop: 8 columns, fixed cell size */
+.bento-grid--desktop {
+  grid-template-columns: repeat(8, var(--cell-size));
+  grid-auto-rows: var(--cell-size);
+}
+
+/* Mobile: 4 columns, smaller cells */
+.bento-grid--mobile {
+  --cell-size: 70px;
+  grid-template-columns: repeat(4, var(--cell-size));
+  grid-auto-rows: var(--cell-size);
 }
 </style>

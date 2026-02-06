@@ -11,28 +11,43 @@ const { isMobile } = useBentoLayout()
 <template>
   <div
 
-    :class="isMobile ? 'flex-col' : 'flex-row'"
-
-    bg-gray-100 flex min-h-screen dark:bg-gray-900
+    bg-gray-100 min-h-screen dark:bg-gray-900
   >
-    <!-- Profile Section -->
-    <aside
-      :class="[
-        isMobile ? 'w-full py-8' : 'w-80 sticky top-0 h-screen',
-      ]"
-      flex="~ col items-center justify-center"
-      p-6
-      shrink-0
-    >
-      <ProfileSection :profile="bentoData.profile" />
-    </aside>
+    <!-- Page container with max-width and centered -->
+    <div
+      :class="isMobile ? 'flex-col' : 'flex-row'"
+      class="page-container"
 
-    <!-- Bento Grid -->
-    <main p-4 flex-1 overflow-auto>
-      <BentoGrid :items="bentoData.items" :is-mobile="isMobile" />
-    </main>
+      mx-auto flex
+    >
+      <!-- Profile Section: flex-1 on desktop, expands to fill remaining space -->
+      <aside
+        :class="[
+          isMobile ? 'w-full py-8' : 'flex-1 sticky top-0 h-screen',
+        ]"
+        flex="~ col items-center justify-center"
+        p-6
+      >
+        <ProfileSection :profile="bentoData.profile" />
+      </aside>
+
+      <!-- Bento Grid: fixed width on desktop -->
+      <main
+        :class="isMobile ? 'w-full' : ''"
+        p-4
+        shrink-0
+      >
+        <BentoGrid :items="bentoData.items" :is-mobile="isMobile" />
+      </main>
+    </div>
 
     <!-- Floating Bar -->
     <FloatingBar />
   </div>
 </template>
+
+<style scoped>
+.page-container {
+  max-width: 1400px;
+}
+</style>
