@@ -12,6 +12,9 @@ catalogs:
     '@vitejs/plugin-vue':
       specifier: ^5.2.4
       version: 5.2.4
+    beasties:
+      specifier: ^0.4.1
+      version: 0.4.1
     jsdom:
       specifier: ^26.1.0
       version: 26.1.0
@@ -77,6 +80,9 @@ catalogs:
       specifier: ^2.2.10
       version: 2.2.10
   frontend:
+    '@unhead/vue':
+      specifier: ^2.1.4
+      version: 2.1.4
     '@vueuse/core':
       specifier: ^13.3.0
       version: 13.3.0
@@ -95,6 +101,9 @@ importers:
 
   .:
     dependencies:
+      '@unhead/vue':
+        specifier: catalog:frontend
+        version: 2.1.4(vue@3.5.16(typescript@5.8.3))
       '@vueuse/core':
         specifier: catalog:frontend
         version: 13.3.0(vue@3.5.16(typescript@5.8.3))
@@ -127,7 +136,7 @@ importers:
         specifier: catalog:dev
         version: 2.4.6
       beasties:
-        specifier: ^0.4.1
+        specifier: catalog:build
         version: 0.4.1
       eslint:
         specifier: catalog:dev

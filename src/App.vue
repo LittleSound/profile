@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import OGHead from '~/components/OGHead.vue'
 import SignatureSplash from '~/components/signature/SignatureSplash.vue'
 
 const showSplash = ref(true)
@@ -9,6 +10,7 @@ function onSplashComplete() {
 </script>
 
 <template>
+  <OGHead />
   <main font-sans text="gray-700 dark:gray-200">
     <SignatureSplash
       v-if="showSplash"
