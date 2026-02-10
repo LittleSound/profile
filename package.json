@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@10.12.1",
   "scripts": {
-    "build": "vite build",
+    "build": "vite-ssg build",
     "dev": "vite --port 8040",
     "lint": "eslint .",
     "typecheck": "vue-tsc",
@@ -25,6 +25,7 @@
     "@vitejs/plugin-vue": "catalog:build",
     "@vue-macros/volar": "catalog:dev",
     "@vue/test-utils": "catalog:dev",
+    "beasties": "catalog:build",
     "eslint": "catalog:dev",
     "eslint-plugin-format": "catalog:dev",
     "jsdom": "catalog:build",
@@ -38,6 +39,8 @@
     "unplugin-vue-macros": "catalog:build",
     "unplugin-vue-router": "catalog:build",
     "vite": "catalog:build",
+    "vite-ssg": "catalog:build",
+    "vite-ssg-sitemap": "catalog:build",
     "vitest": "catalog:dev",
     "vue-tsc": "catalog:dev"
   },

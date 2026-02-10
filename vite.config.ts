@@ -1,4 +1,5 @@
 /// <reference types="vitest" />
+/// <reference types="vite-ssg" />
 
 import path from 'node:path'
 import Vue from '@vitejs/plugin-vue'
@@ -9,6 +10,7 @@ import VueMacros from 'unplugin-vue-macros/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
+import generateSitemap from 'vite-ssg-sitemap'
 
 export default defineConfig({
   resolve: {
@@ -64,5 +66,17 @@ export default defineConfig({
   // https://github.com/vitest-dev/vitest
   test: {
     environment: 'jsdom',
+  },
+
+  // https://github.com/antfu/vite-ssg
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+    beastiesOptions: {
+      reduceInlineStyles: false,
+    },
+    onFinished() {
+      generateSitemap()
+    },
   },
 })
