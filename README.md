@@ -1,3 +1,5 @@
-# rizumu-profile
+# Rizumu's Profile
 
-the project being developed by littlesound.
+[rizumu.me](https://rizumu.me)
+
+this is the personal profile website of Rizumu
