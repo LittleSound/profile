@@ -4,7 +4,7 @@ import { useHead } from '@unhead/vue'
 const SITE_URL = 'https://rizumu.me'
 const SITE_TITLE = 'LittleSound｜Rizumu'
 const SITE_DESCRIPTION = 'Vue.js Team Member working on Vue Vapor Mode. Open source enthusiast, 3D printing maker, and Nintendo fan. Based in Shanghai.'
-const SITE_IMAGE = `${SITE_URL}/og-image.png`
+const SITE_IMAGE = `${SITE_URL}/og-image.jpg`
 const SITE_AUTHOR = 'Rizumu Ayaka'
 const SITE_KEYWORDS = 'Vue.js,Vapor Mode,Open Source,Frontend Developer,Rizumu,LittleSound,Vue Team,Shanghai'
 const TWITTER_HANDLE = '@RizumuA3'
@@ -33,6 +33,7 @@ useHead({
 
     // Open Graph - Image (1200x630 recommended)
     { property: 'og:image', content: SITE_IMAGE },
+    { property: 'og:image:type', content: 'image/jpeg' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:alt', content: `${SITE_TITLE} - Profile` },
