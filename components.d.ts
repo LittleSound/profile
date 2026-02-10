@@ -15,6 +15,7 @@ declare module 'vue' {
     LinkCard: typeof import('./src/components/bento/cards/LinkCard.vue')['default']
     MapCard: typeof import('./src/components/bento/cards/MapCard.vue')['default']
     MediaCard: typeof import('./src/components/bento/cards/MediaCard.vue')['default']
+    OGHead: typeof import('./src/components/OGHead.vue')['default']
     ProfileSection: typeof import('./src/components/profile/ProfileSection.vue')['default']
     RichTextCard: typeof import('./src/components/bento/cards/RichTextCard.vue')['default']
     RizumuSignature: typeof import('./src/components/signature/RizumuSignature.vue')['default']
