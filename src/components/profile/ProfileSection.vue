@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { ProfileData } from '~/types/bento'
+import RizumuSignature from '~/components/signature/RizumuSignature.vue'
 import { extractText } from '~/types/bento'
 import AvatarFrame from './AvatarFrame.vue'
 
@@ -14,13 +15,23 @@ const bioLines = computed(() => {
 
 <template>
   <div flex="~ col items-start" gap-6 h-full>
-    <AvatarFrame
-      :src="profile.image"
-      :alt="profile.name"
-      size="lg"
-    />
+    <div flex="~ items-end justify-between xl:justify-start gap-5 self-stretch">
+      <AvatarFrame
+        :src="profile.image"
+        :alt="profile.name"
+        size="lg"
+      />
 
-    <h1 text-11 text-gray-900 font-bold dark:text-white>
+      <div class="signature-display">
+        <RizumuSignature
+          :animate="false"
+          :width="80"
+          color="currentColor"
+        />
+      </div>
+    </div>
+
+    <h1 text-8 text-gray-900 font-bold xl:text-11 dark:text-white>
       {{ profile.name }}
     </h1>
 

@@ -17,9 +17,11 @@ declare module 'vue' {
     MediaCard: typeof import('./src/components/bento/cards/MediaCard.vue')['default']
     ProfileSection: typeof import('./src/components/profile/ProfileSection.vue')['default']
     RichTextCard: typeof import('./src/components/bento/cards/RichTextCard.vue')['default']
+    RizumuSignature: typeof import('./src/components/signature/RizumuSignature.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SectionHeader: typeof import('./src/components/bento/cards/SectionHeader.vue')['default']
+    SignatureSplash: typeof import('./src/components/signature/SignatureSplash.vue')['default']
     TheFooter: typeof import('./src/components/ui/TheFooter.vue')['default']
     ThemeToggle: typeof import('./src/components/ui/ThemeToggle.vue')['default']
   }
